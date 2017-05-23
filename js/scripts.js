@@ -53,9 +53,9 @@ let name3 = document.getElementById('name3');
 
   let aliceAnimation = alice.animate(
     [
-      { transform: 'rotate(0) translate3D(-50%, -50%, 0)', color: '#000' },
-      { color: '#431236', offset: 0.333},
-      { transform: 'rotate(360deg) translate3D(-50%, -50%, 0)', color: '#000' }
+      { transform: 'rotate(0) translate3D(-50%, -50%, 0)', color: '#000', opacity: '0.1' },
+      { color: '#904e95', offset: 0.333, opacity: '0.6'},
+      { transform: 'rotate(360deg) translate3D(-50%, -50%, 0)', color: '#e96443', opacity: '1' }
     ], {
       duration: 3000,
       iterations: Infinity
